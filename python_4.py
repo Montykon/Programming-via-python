@@ -21,7 +21,7 @@ for i in range(len(dna_1) - 1):
         sumct += 1
 
 dna_sum1 = sumtt*0.02 + sumcc*0.01 + sumct*0.01
-freq1 = dna_sum1 / (len(dna_1) - 1)
+freq1 = dna_sum1 / len(dna_1)
 
 print('Повреждённых пар в 1-й последовательности: ', dna_sum1)
 print('Частота встречаемости повреждений в 1-й последовательности равна ', freq1) 
@@ -40,7 +40,7 @@ for i in range(len(dna_2) - 1):
         sumct += 1
 
 sum_dna2 = sumtt*0.02 + sumcc*0.01 + sumct*0.01
-freq2 = sum_dna2 / (len(dna_2) - 1)
+freq2 = sum_dna2 / len(dna_2)
 
 print('Повреждённых пар в 2-й последовательности: ', sum_dna2)
 print('Частота встречаемости повреждений во 2-й последовательности равна ', freq2) 
@@ -61,7 +61,7 @@ for i in range(len(dna_3) - 1):
         sumct += 1
 
 sum_dna3 = sumtt*0.02 + sumcc*0.01 + sumct*0.01
-freq3 = sum_dna3 / (len(dna_3) - 1)
+freq3 = sum_dna3 / len(dna_3)
 
 print('Повреждённых пар в 3-й последовательности: ', sum_dna3)
 print('Частота встречаемости повреждений в 3-й последовательности равна ', freq3) 

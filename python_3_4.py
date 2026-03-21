@@ -1,0 +1,4 @@
+sample_dna = 'CATGTAGCTACTCGATCGATCGATCGATCGATCGATCGATCGATCGATCATGCTATCATCGAT'
+intron = "CGATCGATCGATCG"
+coding_part = sample_dna.replace("CGATCGATCGATCG",'')
+print(coding_part)
